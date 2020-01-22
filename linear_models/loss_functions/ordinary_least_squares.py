@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class OLSLoss(object):
+class OLSLoss:
     def __init__(self, x: np.ndarray, y: np.ndarray):
         self.x, self.y = x, y
 

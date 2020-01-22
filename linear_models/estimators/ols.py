@@ -1,7 +1,7 @@
 from linear_models.loss_functions import OLSLoss
 
 
-class OLSOptimizedEstimator(object):
+class OLSOptimizedEstimator:
     def fit(self, x, y, optimizer):
         loss = OLSLoss(x, y)
         beta_hat = optimizer.minimize(loss)

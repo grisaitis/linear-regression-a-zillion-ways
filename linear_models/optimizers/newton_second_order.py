@@ -1,3 +1,3 @@
-class NewtonSecondOrderOptimizer(object):
+class NewtonSecondOrderOptimizer:
     def minimize(self, f):
         raise NotImplementedError

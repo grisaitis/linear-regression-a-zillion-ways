@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class FakeData(object):
+class FakeData:
     def __init__(self, n: int, p: int, σ: float, rs: np.random.RandomState):
         self.n = n
         self.p = p
