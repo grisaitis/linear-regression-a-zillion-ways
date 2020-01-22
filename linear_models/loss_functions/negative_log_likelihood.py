@@ -1,5 +1,4 @@
 import numpy as np
-
 import scipy.stats.norm as norm
 
 
